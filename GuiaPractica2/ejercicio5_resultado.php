@@ -32,9 +32,11 @@ iguales a cero y cuántas mayores a cero.</h2>
                $c++;
             } while ($c <= $cantidad_numeros);
             
-            echo $horas_totales;
+            echo 'horas totales en la semana : '. $horas_totales;
             echo '<br>';
-            echo $pago_total;
+            echo 'el pago semanal sera de : $'.$pago_total;
+            echo '<br>';
+            echo 'el pago mensual sera de : $'.($pago_total*4);
         }
         ?>
     </div>
